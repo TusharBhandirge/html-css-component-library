@@ -118,10 +118,25 @@ nav-brand{
     background-color: var(--color-offWhite);
 }
 
+/** footer **/
+
+.footer{
+    padding :1rem;
+    background-color: var(--primary-color);
+    color: white;
+    text-align: center;
+    border-bottom-right-radius: 0.5rem;
+}
 
 
+.footer .link{
+    color: white;
+}
 
 
+.footer ul{
+    padding-inline-start: 0px;
+}
 
 
 
