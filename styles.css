@@ -59,6 +59,26 @@ br{
 
 /** navigatiom **/
 
+.navigation{
+    background-color: var(--primary-color);
+    color:white;
+    border-bottom-left-radius:  0.5rem;
+ padding: 0.5rem 1rem;
+}
+
+nav-brand{
+    font-weight: bold;
+}
+
+.navigation .link{
+
+    color: white;
+
+}
+
+.navigation .list-nobullets{
+    text-align: right;
+}
 
 
 
