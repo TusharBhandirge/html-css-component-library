@@ -80,5 +80,25 @@ nav-brand{
     text-align: right;
 }
 
+/** Hero **/
+.hero{
+    padding: 2rem;
+    text-align: center;
+}
 
+.hero .hero-image{
+    max-width: 350px;
+    display: block;
+    margin: auto;
+}
 
+.hero-heading{
+    padding-top: 1rem;
+    color: grey; 
+}
+
+.hero .hero-span{
+    color: var(--primary-color);
+}
+
+/** section **/
