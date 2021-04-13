@@ -4,6 +4,13 @@ body{
     font-family: 'Lexend', sans-serif;
 }
 
+
+:root{
+    --primary-color:#00BFA6;
+    --color-offWhite: #D1FAE5;
+}
+
+
 /** containers **/
 .container{
     padding-left: 1rem;
@@ -16,10 +23,6 @@ body{
 }
 
 /** Links **/
-
-:root{
-    --primary-color:#00BFA6;
-}
 
 .link{
     text-decoration: none;
@@ -102,3 +105,28 @@ nav-brand{
 }
 
 /** section **/
+
+.section{
+    padding: 1rem;
+}
+
+.section h1{
+    text-align: center;
+}
+
+.section-ow{
+    background-color: var(--color-offWhite);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
