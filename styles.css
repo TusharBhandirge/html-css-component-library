@@ -1,60 +1,61 @@
 @import url('https://fonts.googleapis.com/css2?family=Lexend:wght@500&display=swap');
 
-body{
+body {
     font-family: 'Lexend', sans-serif;
 }
 
 
-:root{
-    --primary-color:#00BFA6;
+:root {
+    --primary-color: #00BFA6;
     --color-offWhite: #D1FAE5;
 }
 
 
 /** containers **/
-.container{
+.container {
     padding-left: 1rem;
     padding-right: 1rem;
 }
 
-.container-center{
+.container-center {
     max-width: 600px;
     margin: auto;
 }
 
 /** Links **/
 
-.link{
+.link {
     text-decoration: none;
     padding: 0.5rem 0.5rem;
-    
+
 }
 
-.link-primary{
+.link-primary {
     border-radius: 0.5rem;
     background-color: var(--primary-color);
     color: white;
 }
 
-.link-secondary{
+.link-secondary {
     border-style: solid;
     border-radius: 0.5rem;
     background-color: none;
-    border-color:var(--primary-color);
-    color:var(--primary-color);
-    
+    border-color: var(--primary-color);
+    color: var(--primary-color);
+
 }
 
-br{
+br {
     margin: 2rem;
 }
+
 /**lists **/
 
-.list-nobullets{
+.list-nobullets {
     list-style: none;
 }
 
-.list-item-inline{
+.list-item-inline {
     display: inline;
     padding: 0.5rem 0.5rem;
 }
@@ -62,66 +63,66 @@ br{
 
 /** navigatiom **/
 
-.navigation{
+.navigation {
     background-color: var(--primary-color);
-    color:white;
-    border-bottom-left-radius:  0.5rem;
- padding: 0.5rem 1rem;
+    color: white;
+    border-bottom-left-radius: 0.5rem;
+    padding: 0.5rem 1rem;
 }
 
-nav-brand{
+nav-brand {
     font-weight: bold;
 }
 
-.navigation .link{
+.navigation .link {
 
     color: white;
 
 }
 
-.navigation .list-nobullets{
+.navigation .list-nobullets {
     text-align: right;
 }
 
 /** Hero **/
-.hero{
+.hero {
     padding: 2rem;
     text-align: center;
 }
 
-.hero .hero-image{
+.hero .hero-image {
     max-width: 350px;
     display: block;
     margin: auto;
 }
 
-.hero-heading{
+.hero-heading {
     padding-top: 1rem;
-    color: grey; 
+    color: grey;
 }
 
-.hero .hero-span{
+.hero .hero-span {
     color: var(--primary-color);
 }
 
 /** section **/
 
-.section{
+.section {
     padding: 1rem;
 }
 
-.section h1{
+.section h1 {
     text-align: center;
 }
 
-.section-ow{
+.section-ow {
     background-color: var(--color-offWhite);
 }
 
 /** footer **/
 
-.footer{
-    padding :1rem;
+.footer {
+    padding: 1rem;
     background-color: var(--primary-color);
     color: white;
     text-align: center;
@@ -129,19 +130,11 @@ nav-brand{
 }
 
 
-.footer .link{
+.footer .link {
     color: white;
 }
 
 
-.footer ul{
+.footer ul {
     padding-inline-start: 0px;
 }
-
-
-
-
-
-
-
-
